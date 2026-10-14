@@ -1,0 +1,11 @@
+{"id": "d01", "question": "What is the probation period for new employees?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "employee-handbook", "page": 1}]}
+{"id": "d02", "question": "Are USB drives allowed on company laptops?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "it-security-policy", "page": 2}]}
+{"id": "d03", "question": "How often does the security team run phishing simulations?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "it-security-policy", "page": 2}]}
+{"id": "d04", "question": "Who approves international trips?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "travel-expense-policy", "page": 1}]}
+{"id": "d05", "question": "How long is bereavement leave?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "employee-handbook", "page": 2}]}
+{"id": "d06", "question": "¿Cuántos días extra de vacaciones da la empresa por antigüedad?", "role": "employee", "lang": "es", "category": "answerable", "expected": [{"doc_id": "politica-vacaciones", "page": 1}]}
+{"id": "d07", "question": "When is the harassment prevention course due?", "role": "guest", "lang": "en", "category": "answerable", "expected": [{"doc_id": "onboarding-guide", "page": 2}]}
+{"id": "d08", "question": "What is the policy on cryptocurrency investments?", "role": "employee", "lang": "en", "category": "unanswerable", "expected": []}
+{"id": "d09", "question": "How do I book a meeting room?", "role": "employee", "lang": "en", "category": "unanswerable", "expected": []}
+{"id": "d10", "question": "¿Hay servicio de transporte para empleados desde la estación de metro?", "role": "employee", "lang": "es", "category": "unanswerable", "expected": []}
+{"id": "d11", "question": "What is the annual budget for team-building events?", "role": "employee", "lang": "en", "category": "unanswerable", "expected": []}

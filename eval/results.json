@@ -1,0 +1,1251 @@
+{
+  "settings": {
+    "llm_provider": "extractive",
+    "embedder": "tfidf",
+    "top_k": 5,
+    "refusal_threshold": 0.47,
+    "chunk_max_words": 90,
+    "n_chunks": 47
+  },
+  "results": [
+    {
+      "metrics": {
+        "mode": "bm25",
+        "n_questions": 34,
+        "n_answerable": 25,
+        "hit@1": 0.96,
+        "hit@3": 1.0,
+        "mrr@5": 0.98,
+        "answered_with_correct_citation": 0.84,
+        "false_refusal_rate": 0.16,
+        "refusal_accuracy_unanswerable": 0.8,
+        "refusal_accuracy_restricted": 1.0,
+        "access_control_leaks": 0,
+        "by_category": {
+          "answerable": {
+            "n": 23,
+            "hit@3": 1.0,
+            "refused": 2
+          },
+          "cross_lingual": {
+            "n": 2,
+            "hit@3": 1.0,
+            "refused": 2
+          },
+          "restricted": {
+            "n": 4,
+            "hit@3": 0.0,
+            "refused": 4
+          },
+          "unanswerable": {
+            "n": 5,
+            "hit@3": 0.0,
+            "refused": 4
+          }
+        }
+      },
+      "questions": [
+        {
+          "id": "q01",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.75,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q02",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.6934,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q03",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.623,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q04",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.555,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q05",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q06",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.613,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q07",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q08",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q09",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.6486,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q10",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.7821,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q11",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q12",
+          "category": "answerable",
+          "lang": "en",
+          "role": "guest",
+          "refused": true,
+          "confidence": 0.251,
+          "hit_rank": 1,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q13",
+          "category": "answerable",
+          "lang": "en",
+          "role": "guest",
+          "refused": false,
+          "confidence": 0.5207,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q14",
+          "category": "answerable",
+          "lang": "en",
+          "role": "guest",
+          "refused": false,
+          "confidence": 0.8333,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q15",
+          "category": "answerable",
+          "lang": "en",
+          "role": "guest",
+          "refused": false,
+          "confidence": 0.588,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q16",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q17",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q18",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q19",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q20",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2403,
+          "hit_rank": 1,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q21",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q22",
+          "category": "cross_lingual",
+          "lang": "es",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.4617,
+          "hit_rank": 1,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q23",
+          "category": "cross_lingual",
+          "lang": "es",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2144,
+          "hit_rank": 2,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q24",
+          "category": "answerable",
+          "lang": "en",
+          "role": "manager",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q25",
+          "category": "answerable",
+          "lang": "en",
+          "role": "manager",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q26",
+          "category": "restricted",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2001,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q27",
+          "category": "restricted",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.0,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q28",
+          "category": "restricted",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2001,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q29",
+          "category": "restricted",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2001,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q30",
+          "category": "unanswerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2747,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q31",
+          "category": "unanswerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.3956,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q32",
+          "category": "unanswerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2486,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q33",
+          "category": "unanswerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2183,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q34",
+          "category": "unanswerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.5808,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        }
+      ]
+    },
+    {
+      "metrics": {
+        "mode": "dense",
+        "n_questions": 34,
+        "n_answerable": 25,
+        "hit@1": 0.96,
+        "hit@3": 1.0,
+        "mrr@5": 0.98,
+        "answered_with_correct_citation": 0.84,
+        "false_refusal_rate": 0.16,
+        "refusal_accuracy_unanswerable": 0.8,
+        "refusal_accuracy_restricted": 1.0,
+        "access_control_leaks": 0,
+        "by_category": {
+          "answerable": {
+            "n": 23,
+            "hit@3": 1.0,
+            "refused": 2
+          },
+          "cross_lingual": {
+            "n": 2,
+            "hit@3": 1.0,
+            "refused": 2
+          },
+          "restricted": {
+            "n": 4,
+            "hit@3": 0.0,
+            "refused": 4
+          },
+          "unanswerable": {
+            "n": 5,
+            "hit@3": 0.0,
+            "refused": 4
+          }
+        }
+      },
+      "questions": [
+        {
+          "id": "q01",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.75,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q02",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.6934,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q03",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.623,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q04",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.555,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q05",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q06",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.613,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q07",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q08",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q09",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.6486,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q10",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.7821,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q11",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q12",
+          "category": "answerable",
+          "lang": "en",
+          "role": "guest",
+          "refused": true,
+          "confidence": 0.251,
+          "hit_rank": 1,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q13",
+          "category": "answerable",
+          "lang": "en",
+          "role": "guest",
+          "refused": false,
+          "confidence": 0.5207,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q14",
+          "category": "answerable",
+          "lang": "en",
+          "role": "guest",
+          "refused": false,
+          "confidence": 0.8333,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q15",
+          "category": "answerable",
+          "lang": "en",
+          "role": "guest",
+          "refused": false,
+          "confidence": 0.588,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q16",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q17",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q18",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q19",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q20",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2403,
+          "hit_rank": 1,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q21",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q22",
+          "category": "cross_lingual",
+          "lang": "es",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.4617,
+          "hit_rank": 1,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q23",
+          "category": "cross_lingual",
+          "lang": "es",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2144,
+          "hit_rank": 2,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q24",
+          "category": "answerable",
+          "lang": "en",
+          "role": "manager",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q25",
+          "category": "answerable",
+          "lang": "en",
+          "role": "manager",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q26",
+          "category": "restricted",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2001,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q27",
+          "category": "restricted",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.0,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q28",
+          "category": "restricted",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2001,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q29",
+          "category": "restricted",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2001,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q30",
+          "category": "unanswerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2747,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q31",
+          "category": "unanswerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.3956,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q32",
+          "category": "unanswerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2486,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q33",
+          "category": "unanswerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2183,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q34",
+          "category": "unanswerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.5808,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        }
+      ]
+    },
+    {
+      "metrics": {
+        "mode": "hybrid",
+        "n_questions": 34,
+        "n_answerable": 25,
+        "hit@1": 0.96,
+        "hit@3": 1.0,
+        "mrr@5": 0.98,
+        "answered_with_correct_citation": 0.84,
+        "false_refusal_rate": 0.16,
+        "refusal_accuracy_unanswerable": 0.8,
+        "refusal_accuracy_restricted": 1.0,
+        "access_control_leaks": 0,
+        "by_category": {
+          "answerable": {
+            "n": 23,
+            "hit@3": 1.0,
+            "refused": 2
+          },
+          "cross_lingual": {
+            "n": 2,
+            "hit@3": 1.0,
+            "refused": 2
+          },
+          "restricted": {
+            "n": 4,
+            "hit@3": 0.0,
+            "refused": 4
+          },
+          "unanswerable": {
+            "n": 5,
+            "hit@3": 0.0,
+            "refused": 4
+          }
+        }
+      },
+      "questions": [
+        {
+          "id": "q01",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.75,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q02",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.6934,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q03",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.623,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q04",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.555,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q05",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q06",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.613,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q07",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q08",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q09",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.6486,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q10",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.7821,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q11",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q12",
+          "category": "answerable",
+          "lang": "en",
+          "role": "guest",
+          "refused": true,
+          "confidence": 0.251,
+          "hit_rank": 1,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q13",
+          "category": "answerable",
+          "lang": "en",
+          "role": "guest",
+          "refused": false,
+          "confidence": 0.5207,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q14",
+          "category": "answerable",
+          "lang": "en",
+          "role": "guest",
+          "refused": false,
+          "confidence": 0.8333,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q15",
+          "category": "answerable",
+          "lang": "en",
+          "role": "guest",
+          "refused": false,
+          "confidence": 0.588,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q16",
+          "category": "answerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q17",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q18",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q19",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q20",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2403,
+          "hit_rank": 1,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q21",
+          "category": "answerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q22",
+          "category": "cross_lingual",
+          "lang": "es",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.4617,
+          "hit_rank": 1,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q23",
+          "category": "cross_lingual",
+          "lang": "es",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2144,
+          "hit_rank": 2,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q24",
+          "category": "answerable",
+          "lang": "en",
+          "role": "manager",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q25",
+          "category": "answerable",
+          "lang": "en",
+          "role": "manager",
+          "refused": false,
+          "confidence": 1.0,
+          "hit_rank": 1,
+          "cited_expected": true,
+          "leaks": 0
+        },
+        {
+          "id": "q26",
+          "category": "restricted",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2001,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q27",
+          "category": "restricted",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.0,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q28",
+          "category": "restricted",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2001,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q29",
+          "category": "restricted",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2001,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q30",
+          "category": "unanswerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2747,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q31",
+          "category": "unanswerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.3956,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q32",
+          "category": "unanswerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2486,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q33",
+          "category": "unanswerable",
+          "lang": "es",
+          "role": "employee",
+          "refused": true,
+          "confidence": 0.2183,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        },
+        {
+          "id": "q34",
+          "category": "unanswerable",
+          "lang": "en",
+          "role": "employee",
+          "refused": false,
+          "confidence": 0.5808,
+          "hit_rank": null,
+          "cited_expected": false,
+          "leaks": 0
+        }
+      ]
+    }
+  ]
+}

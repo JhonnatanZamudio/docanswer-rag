@@ -1,0 +1,34 @@
+{"id": "q01", "question": "What is the nightly hotel limit in Bogota?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "travel-expense-policy", "page": 2}]}
+{"id": "q02", "question": "How many days in advance must I request a business trip?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "travel-expense-policy", "page": 1}]}
+{"id": "q03", "question": "Can I fly business class on a 7-hour flight?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "travel-expense-policy", "page": 2}]}
+{"id": "q04", "question": "What is the daily meal allowance for international trips?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "travel-expense-policy", "page": 3}]}
+{"id": "q05", "question": "How much is reimbursed per kilometre when I use my own car?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "travel-expense-policy", "page": 3}]}
+{"id": "q06", "question": "What is the deadline to submit an expense report?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "travel-expense-policy", "page": 4}]}
+{"id": "q07", "question": "How many remote days per week are allowed?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "employee-handbook", "page": 3}]}
+{"id": "q08", "question": "How much is the monthly internet allowance for remote work?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "employee-handbook", "page": 3}]}
+{"id": "q09", "question": "How long is paternity leave?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "employee-handbook", "page": 2}]}
+{"id": "q10", "question": "When do I need a medical certificate for sick leave?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "employee-handbook", "page": 2}]}
+{"id": "q11", "question": "How much is the annual learning budget?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "employee-handbook", "page": 4}]}
+{"id": "q12", "question": "What is the minimum password length?", "role": "guest", "lang": "en", "category": "answerable", "expected": [{"doc_id": "it-security-policy", "page": 1}]}
+{"id": "q13", "question": "Who do I contact if my laptop is stolen?", "role": "guest", "lang": "en", "category": "answerable", "expected": [{"doc_id": "it-security-policy", "page": 3}]}
+{"id": "q14", "question": "How long is the guest Wi-Fi voucher valid?", "role": "guest", "lang": "en", "category": "answerable", "expected": [{"doc_id": "it-security-policy", "page": 3}]}
+{"id": "q15", "question": "What time should I arrive on my first day?", "role": "guest", "lang": "en", "category": "answerable", "expected": [{"doc_id": "onboarding-guide", "page": 1}]}
+{"id": "q16", "question": "When is the salary paid each month?", "role": "employee", "lang": "en", "category": "answerable", "expected": [{"doc_id": "onboarding-guide", "page": 3}]}
+{"id": "q17", "question": "¿Cuántos días de vacaciones tengo por año?", "role": "employee", "lang": "es", "category": "answerable", "expected": [{"doc_id": "politica-vacaciones", "page": 1}]}
+{"id": "q18", "question": "¿Con cuánta anticipación debo solicitar las vacaciones?", "role": "employee", "lang": "es", "category": "answerable", "expected": [{"doc_id": "politica-vacaciones", "page": 2}]}
+{"id": "q19", "question": "¿Cuántos periodos de vacaciones puedo acumular?", "role": "employee", "lang": "es", "category": "answerable", "expected": [{"doc_id": "politica-vacaciones", "page": 2}]}
+{"id": "q20", "question": "¿Puedo tomar vacaciones en diciembre si trabajo en operaciones?", "role": "employee", "lang": "es", "category": "answerable", "expected": [{"doc_id": "politica-vacaciones", "page": 3}]}
+{"id": "q21", "question": "¿Tengo un día libre por mi cumpleaños?", "role": "employee", "lang": "es", "category": "answerable", "expected": [{"doc_id": "politica-vacaciones", "page": 3}]}
+{"id": "q22", "question": "¿Cuál es el límite de hotel por noche en Medellín?", "role": "employee", "lang": "es", "category": "cross_lingual", "expected": [{"doc_id": "travel-expense-policy", "page": 2}]}
+{"id": "q23", "question": "¿Cuántas semanas dura la licencia de maternidad?", "role": "employee", "lang": "es", "category": "cross_lingual", "expected": [{"doc_id": "employee-handbook", "page": 2}]}
+{"id": "q24", "question": "What is the merit increase budget for 2026?", "role": "manager", "lang": "en", "category": "answerable", "expected": [{"doc_id": "manager-compensation-guidelines", "page": 1}]}
+{"id": "q25", "question": "When are the promotion windows?", "role": "manager", "lang": "en", "category": "answerable", "expected": [{"doc_id": "manager-compensation-guidelines", "page": 2}]}
+{"id": "q26", "question": "What is the merit increase budget for 2026?", "role": "employee", "lang": "en", "category": "restricted", "expected": []}
+{"id": "q27", "question": "What is the maximum retention bonus?", "role": "employee", "lang": "en", "category": "restricted", "expected": []}
+{"id": "q28", "question": "What is the annual bonus target percentage?", "role": "employee", "lang": "en", "category": "restricted", "expected": []}
+{"id": "q29", "question": "What is the salary range of band L3?", "role": "employee", "lang": "en", "category": "restricted", "expected": []}
+{"id": "q30", "question": "Does the company offer a stock option plan?", "role": "employee", "lang": "en", "category": "unanswerable", "expected": []}
+{"id": "q31", "question": "What is the dress code for client visits?", "role": "employee", "lang": "en", "category": "unanswerable", "expected": []}
+{"id": "q32", "question": "How many parking spots are available at the office?", "role": "employee", "lang": "en", "category": "unanswerable", "expected": []}
+{"id": "q33", "question": "¿Cuál es el horario del gimnasio de la empresa?", "role": "employee", "lang": "es", "category": "unanswerable", "expected": []}
+{"id": "q34", "question": "Can I bring my dog to the office?", "role": "employee", "lang": "en", "category": "unanswerable", "expected": []}

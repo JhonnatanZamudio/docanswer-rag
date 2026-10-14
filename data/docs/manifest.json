@@ -1,0 +1,38 @@
+{
+  "employee-handbook.pdf": {
+    "title": "Employee Handbook",
+    "short": "Employee Handbook",
+    "access": "employees",
+    "lang": "en"
+  },
+  "travel-expense-policy.pdf": {
+    "title": "Travel & Expense Policy",
+    "short": "Travel Policy",
+    "access": "employees",
+    "lang": "en"
+  },
+  "it-security-policy.pdf": {
+    "title": "IT Security Policy",
+    "short": "IT Security Policy",
+    "access": "public",
+    "lang": "en"
+  },
+  "onboarding-guide.pdf": {
+    "title": "Onboarding Guide",
+    "short": "Onboarding Guide",
+    "access": "public",
+    "lang": "en"
+  },
+  "politica-vacaciones.pdf": {
+    "title": "Política de Vacaciones",
+    "short": "Política de Vacaciones",
+    "access": "employees",
+    "lang": "es"
+  },
+  "manager-compensation-guidelines.pdf": {
+    "title": "Manager Compensation Guidelines",
+    "short": "Compensation Guidelines",
+    "access": "managers",
+    "lang": "en"
+  }
+}
